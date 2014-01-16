@@ -39,7 +39,7 @@ public class HelloWorldActor extends UntypedActor{
 
             greeterRef.tell(msg, getSelf());
 
-            //waitForTimeInSeconds(5);
+            waitForTimeInSeconds(5);
 
             logger.info("After call to greeter.tell");
 
